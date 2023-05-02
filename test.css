@@ -1,0 +1,14 @@
+.product {
+    display: none;
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+    padding: 10px;
+    border: 5px solid darkred;
+    margin: 10px;
+
+}
+.product:nth-child(even) {
+    background-color: gold;
+}
