@@ -147,6 +147,33 @@ overflow:hidden;}
     color: var(--color-brand-light);
         font-weight: 600;
 }
+
+/* Header */
+.header {
+    background-color: lightgray;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;}
+
+.header-nav { 
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    gap: 40px;
+    }
+
+.header-menu {
+        display: flex;
+        gap: 64px;
+        flex-grow: 1;
+        justify-content: center;
+    }
+
+
+
+
 /* Hero-section */
 .hero-section {
     padding: 272px 0;
@@ -163,11 +190,17 @@ overflow:hidden;}
     color: var(--color-brand-light);   
 }
 /* Advantages list */
-.advantages-list {
-    color: #faf4ea;
-    background-color: #819b57;
+.advantages-section {
+    padding: 16px 0;
+    background-color: var(--color-brand-light);
+}
+.advantages-list {  
+   display: flex;
+   justify-content: space-between;
+   gap: 40px;
 }
 .advantages-item {
+    color: var(--color-primary-light);
     font-size: 20px;
     font-weight: 300;
 
@@ -183,6 +216,11 @@ overflow:hidden;}
     color:  var(--color-brand-dark);
 }
 /* Traditions section */
+
+.traditions-container {
+    display: flex;
+}
+
 .traditions-title {
     margin-bottom: 42px;
 }
