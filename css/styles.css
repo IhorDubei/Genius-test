@@ -219,6 +219,11 @@ overflow:hidden;}
 
 .traditions-container {
     display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.traditions-content {
+    maxw: 710px;
 }
 
 .traditions-title {
@@ -226,9 +231,11 @@ overflow:hidden;}
 }
 .traditions-section {
     padding-top: 96px;
+    gap: 100px;
 }
-.traditions-text {
-    white-space: nowrap;
+
+.traditions-text.limited {
+ max-width: 340px;
 }
 
 .traditions-text .brand {
@@ -248,6 +255,24 @@ overflow:hidden;}
     font-weight: 600;
 }
 /* Formats section */
+
+.formats-item {
+    flex-basis: calc((100% - 40px) / 3);
+}
+
+.formats-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.format-card {
+    padding: 24px;
+    border: 1px solid lightgray;   
+    border-radius: 16px;
+
+}
+
 .formats-title
 {
     margin-bottom: 80px;
